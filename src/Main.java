@@ -1,15 +1,15 @@
-import java.util.Scanner; // permite ler o que o usuário digita
+import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
 
-        Scanner scanner = new Scanner(System.in); // cria o scanner
+        Scanner scanner = new Scanner(System.in); 
 
         System.out.print("Digite seu nome: ");
-        String nome = scanner.nextLine(); // lê o nome
+        String nome = scanner.nextLine(); 
 
         System.out.print("Digite sua idade: ");
-        int idade = scanner.nextInt(); // lê a idade
+        int idade = scanner.nextInt(); 
 
         if (idade >= 18) {
             System.out.println("Olá, " + nome + "! Você é maior de idade.");
@@ -17,6 +17,6 @@ public class Main {
             System.out.println("Olá, " + nome + "! Você é menor de idade.");
         }
 
-        scanner.close(); // fecha o scanner
+        scanner.close();
     }
 }
